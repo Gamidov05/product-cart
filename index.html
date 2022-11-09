@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>product-cart</title>
+</head>
+<body>
+	<div class="product-cart">
+		<div class="product-cart__prewiew">
+			<div class="product-slider">
+				<img src="./images/img/Rectangle 60.png" alt="" class="product-slider__img">
+				<button class="product-slider__prev" type="button"></button>
+				<button class="product-slider__next" type="button"></button>
+			</div>
+
+			<div class="product-images">
+				<img src="./images/img/Rectangle 61.png" alt="" class="product-images__item">
+				<img src="./images/img/Rectangle 62.png" alt="" class="product-images__item">
+				<img src="./images/img/Rectangle 63.png" alt="" class="product-images__item">
+				<img src="./images/img/Rectangle 64.png" alt="" class="product-images__item">
+				<img src="./images/img/Rectangle 65.png" alt="" class="product-images__item">
+			</div>
+		</div>
+
+		<div class="product-cart__content">
+			<div class="product-header">
+				<p class="product-header__type">BESTSELLER</p>
+				<h1 class="product-header__name">Apple Iphone X</h1>
+				<div class="product-header__bottom">
+					<div class="product-rating"></div>
+					<span class="product-header__art">арт.12345</span>
+				</div>
+			</div>
+
+			<div class="product-txt">
+				<p class="product-txt__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque culpa asperiores, eum expedita, perspiciatis adipisci saepe assumenda sint ipsam velit, quibusdam distinctio? Tempore quod aliquam dolore nobis quia porro voluptates.</p>
+			</div>
+
+			<div class="product-fields">
+				<label class="product-fields__row">
+					<span>Color</span>
+					<select>
+						<option>оранжевый</option>
+						<option>красный</option>
+						<option>белый</option>
+					</select>
+				</label>
+				<label class="product-fields__row">
+					<span>Сapacity</span>
+					<select>
+						<option>64Gb</option>
+						<option>32Gb</option>
+						<option>28Gb</option>
+					</select>
+				</label>
+				<label class="product-fields__row">
+					<span>Quantity</span>
+					<div class="counter">
+						<button class="counter__minus">-</button>
+						<span class="counter__value">1</span>
+						<button class="counter__plus">+</button>
+					</div>
+					<span class="product-fields__row-availabel">2 availabel</span>
+				</label>
+			</div>
+			
+			<div class="product-footer">
+				<p class="product-footer__stock">В наличии</p>
+				<div class="product-footer__info">
+					<div class="product-footer__info-left">
+						<span class="product-footer__price">$1,090</span>
+						<span class="product-footer__old-price">$1,090</span>
+					</div>
+					<div class="product-footer__info-right">
+						<button class="product-footer__like" type="button"></button>
+						<button class="product-footer__analytics" type="button"></button>
+					</div>
+				</div>
+				<div class="product-footer__buttons">
+					<button class="product-footer_buy">Купить в 1 клик</button>
+					<button class="product-footer_add-to-cart">Добавить в корзину</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
